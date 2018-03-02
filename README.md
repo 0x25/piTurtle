@@ -1,16 +1,12 @@
 # piTurtle
 automatic open remote shell on an internal network with raspberryPI
 
-
-# piTurtle
-automatic open remote shell on an internal network with raspberryPI
-
 # need
  - stunnel 
  - ssh 
  - vps or server on internet
  - raspbery
-
+ 
 # subject
 Create a stunnel connection (ssl 443) to the a server on internet and the open a remote shell inside the stunnel connection with SSH.
 
