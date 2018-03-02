@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/0x25/piTurtle/blob/master/piturtle.png" alt="piTurtle">
+</p>
+
 # piTurtle
 automatic open remote shell on an internal network with raspberryPI
 
@@ -10,8 +14,9 @@ automatic open remote shell on an internal network with raspberryPI
 # subject
 Create a stunnel connection (ssl 443) to the a server on internet and the open a remote shell inside the stunnel connection with SSH.
 
-[diagram]: https://github.com/0x25/piTurtle/blob/master/netDiagram.png?raw=true
-
+<p align="center">
+<img src="https://github.com/0x25/piTurtle/blob/master/netDiagram.png" alt="net diagram">
+</p>
 
 # stunnel
 install stunnel4 on both rpi and server
