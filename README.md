@@ -5,7 +5,7 @@ automatic open remote shell on an internal network with raspberryPI
  - stunnel 
  - ssh 
  - vps or server on internet
- - raspbery
+ - raspberry
  
 # subject
 Create a stunnel connection (ssl 443) to the a server on internet and the open a remote shell inside the stunnel connection with SSH.
