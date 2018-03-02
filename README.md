@@ -56,7 +56,7 @@ nano stunnel.conf
 >; TLS front-end to a web server  
 >[https]  
 >accept  = 443  
->connect = 7515  
+>connect = 22  
 >cert=/etc/stunnel/server.pem  
 >key=/etc/stunnel/keyServer.key  
 
@@ -137,6 +137,10 @@ useradd remote
 ```
 copy remote.pub in /home/remote/.ssh/ 
 
+Edit the ssh conf to allow authentification with key  (/etc/ssh/sshd_config)
+>PasswordAuthentication no  
+>AuthenticationMethods publickey  
+
 
 ##### On the rpi
 start ssh reverse shell
@@ -151,5 +155,7 @@ and normally on the server a port is open localhost:2201 and you can ssh to it
 
 
 
+##### my crontab
+>*/2 * * * * /opt/remoteShell/check.sh >> /opt/remoteShell/cron.log   
 
 
